@@ -24,7 +24,7 @@ class Card {
         index.textContent = this.index;
         pxSm.textContent = this.pxSm;
         pxLg.textContent = this.pxLg;
-        div.className = 'bg-black w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] rounded-lg text-white flex items-center justify-center flex-col card text-lg font-semibold'
+        div.className = 'bg-black w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] rounded-lg text-white flex items-center justify-center flex-col card text-md font-semibold'
         pxSm.className = 'lg:hidden'
         pxLg.className = 'hidden lg:block'
 
